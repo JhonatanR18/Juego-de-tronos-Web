@@ -34,4 +34,33 @@ p{
     text-align: justify;
     font-size: 14px    ;
 }
-
+footer{
+    height: 500px;
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.redes a:hover{
+    color: white;
+    background-color: #800080;
+}
+#final a{
+    text-decoration: none;
+    color: black;
+}
