@@ -60,7 +60,8 @@ footer{
     color: white;
     background-color: #800080;
 }
-.ir a{
+
+#ir {
     text-decoration: none;
     color: black;
 }
